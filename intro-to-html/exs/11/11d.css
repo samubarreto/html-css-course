@@ -1,0 +1,66 @@
+.internal {
+    border: none;
+    box-shadow: 0px 0px 5px rgb(25,25,25, 0.3);
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.person {
+    width: 100%;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-left: 7px;
+}
+
+.relate {
+    width: 25px;
+    border-radius: 12.5px;
+    margin-left: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.mutual-friends {
+    font-family: 'Roboto';
+    color: rgba(0,0,0,0.6);
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-left: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+button {
+    font-family: 'Roboto';
+    background-color: rgb(52, 121, 239);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 7px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    display: block;
+    transition: all 0.15s;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+button:active {
+    opacity: 0.2;
+}

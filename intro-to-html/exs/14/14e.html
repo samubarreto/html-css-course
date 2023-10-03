@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>14e</title>
+        <style>
+
+            .left-section {
+                display: flex;
+                justify-content: left;
+                margin: 60px;
+                align-items: center;
+                flex:1;
+                font-family: Roboto, Arial;
+                font-weight: 700;
+            }
+
+            .right-section {
+                display: flex;
+                justify-content: right;
+                margin: 60px;
+                align-items: center;
+                flex:1;
+                font-family: Roboto, Arial;
+                font-weight: 700;
+            }
+
+            .add-button {
+                background-color: rgb(82, 129, 222);
+                color: white;
+                font-weight: 700;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+
+            .message-button {
+                background-color: rgb(220, 220, 220);
+                font-weight: 700;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+                border-radius: 5px;
+            }
+
+        </style>
+    </head>
+    <body style="height: 3000px;">
+
+        <div style="background-color: rgb(0, 0, 0);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ">
+
+        <div style="background-color: white;
+        position: fixed;
+        top:50px;
+        left:250px;
+        right:250px;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        ">
+    
+            <div class="left-section">
+                <img src="img.png" style="height: 40px; border-radius:20px; margin-right: 10px;">Samu
+            </div>
+
+            <div class="right-section">
+                <button class="add-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+    
+        </div>
+    </body>
+</html>

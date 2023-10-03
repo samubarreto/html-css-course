@@ -1,0 +1,55 @@
+.name {
+    width: 100px;
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(86,86,86,0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email {
+    width: 225px;
+    height: 30px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(86,86,86,0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    width: 245px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(86,86,86,0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(48, 95, 227);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}

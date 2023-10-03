@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            .container {
+                background-color: lightgray;
+                position: relative;
+                width: 250px;
+                height: 250px;
+            }
+            
+            .image {
+                position: absolute;
+            }
+
+            .tag {
+                position: absolute;
+                background-color: rgba(0,0,0,0.8);
+                top: 8px;
+                right: 0;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color:white;
+                font-family: Roboto, Arial;
+                font-weight: 400;
+            }
+
+            .add-cart-container {
+                background-color: whitesmoke;
+                opacity: 0.9;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cart-button {
+                background-color: white;
+                font-weight: 500;
+                display: inline-block;
+                color: black;
+                font-family: Roboto, Arial;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                cursor: pointer;
+            }
+
+        </style>
+
+    </head>
+    <body style="height: 3000px;">
+        <div class="container">
+            <div class="image">
+                <img src="camiseta.png" style="width:250px">
+            </div>
+            <div class="tag">200% OFF</div>
+            <div class="add-cart-container">
+                <div class="cart-button">Add to Cart</div>
+            </div>
+        </div>
+    </body>
+</html>
